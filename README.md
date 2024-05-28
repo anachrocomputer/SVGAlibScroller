@@ -11,12 +11,13 @@ An earlier iteration generated numerous PPM format still images and then assembl
 along with a soundtrack, into a video file by using 'ffmpeg'.
 But this version writes directly to the VGA screen and the ALSA sound subsystem.
 
-Problem is, SVGAlib is long obsolete and superceded by SDL2,
-the Simple DirectMedia Layer.
-SVGAlib had several shortcomings,
-and was only really useful on Linux systems that ran in text mode (i.e. without a GUI).
-This repo is here as an example of how we wrote code back in the day,
-and as a bit of a fossil (like myself).
+> [!NOTE]
+> SVGAlib is long obsolete and superceded by SDL2,
+> the Simple DirectMedia Layer.
+> SVGAlib had several shortcomings,
+> and was only really useful on Linux systems that ran in text mode (i.e. without a GUI).
+> This repo is here as an example of how we wrote code back in the day,
+> and as a bit of a fossil (like myself).
 
 The code never got as far as accepting user input in the function `game_logic()`.
 I really wanted to use a joystick,
